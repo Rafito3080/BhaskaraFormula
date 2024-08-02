@@ -21,8 +21,8 @@ int main(){
 			cout<<"Qual é o valor do número?\n";
 			cin >> c;
 			Delta = pow(b, 2) -4*a*c;
-			x1 = (-(b) + sqrt(Delta))/2*a;
-			x2 = (-(b) - sqrt(Delta))/2*a;
+			x1 = (-(b) + sqrt(Delta))/(2*a);
+			x2 = (-(b) - sqrt(Delta))/(2*a);
 			if(raizExata(Delta)){
 				cout<<"Como a raiz quadrada do Delta(Δ =b² -4*a*c) é exata, podemos fazer a fórmula de Bhaskara.\nS={"<< min(x1, x2) <<"," <<max(x1, x2)<<"}\n";
 			}else{
@@ -38,8 +38,8 @@ int main(){
 			cout<<"Qual é o valor do número?\n";
 			cin >> c;
 			Delta = pow(b, 2) -4*a*c;
-			x1 = (-(b) + sqrt(Delta))/2*a;
-			x2 = (-(b) - sqrt(Delta))/2*a;
+			x1 = (-(b) + sqrt(Delta))/(2*a);
+			x2 = (-(b) - sqrt(Delta))/(2*a);
 			if(raizExata(Delta)){
 				cout<<"Como a raiz quadrada do Delta(Δ =b² -4*a*c) é exata, podemos fazer a fórmula de Bhaskara.\nS={"<< min(x1, x2) <<"," <<max(x1, x2)<<"}\n";
 			}else{
@@ -55,8 +55,8 @@ int main(){
 			cout<<"Qual é o valor do X?\n";
 			cin >> b;
 			Delta = pow(b, 2) -4*a*c;
-			x1 = (-(b) + sqrt(Delta))/2*a;
-			x2 = (-(b) - sqrt(Delta))/2*a;
+			x1 = (-(b) + sqrt(Delta))/(2*a);
+			x2 = (-(b) - sqrt(Delta))/(2*a);
 			if(raizExata(Delta)){
 			cout<<"Como a raiz quadrada do Delta(Δ =b² -4*a*c) é exata, podemos fazer a fórmula de Bhaskara.\nS={"<< min(x1, x2) <<"," <<max(x1, x2)<<"}\n";
 			}else{
@@ -73,8 +73,8 @@ int main(){
 							cout <<"Qual o valor do número?\n";
 							cin >> c;
 							Delta = pow(b, 2) -4*a*c;
-							x1 = (-(b) + sqrt(Delta))/2*a;
-							x2 = (-(b) - sqrt(Delta))/2*a;
+							x1 = (-(b) + sqrt(Delta))/(2*a);
+							x2 = (-(b) - sqrt(Delta))/(2*a);
 							if(raizExata(Delta)){
 							cout<<"Como a raiz quadrada do Delta(Δ =b² -4*a*c) é exata, podemos fazer a fórmula de Bhaskara.\nS={"<< min(x1, x2) <<"," <<max(x1, x2)<<"}\n";
 							}else{
