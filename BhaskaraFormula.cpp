@@ -26,7 +26,7 @@ int main(){
 			if(raizExata(Delta)){
 				cout<<"Como a raiz quadrada do Delta(Δ =b² -4*a*c) é exata, podemos fazer a fórmula de Bhaskara.\nS={"<< min(x1, x2) <<"," <<max(x1, x2)<<"}\n";
 			}else{
-				cout<<"S = {}";
+				cout<<"S = {}\n";
 			}
 			cout<<"Tente novamente.\n1.Sim\n2.Não\n";
 			cin >> SCH;
@@ -43,7 +43,7 @@ int main(){
 			if(raizExata(Delta)){
 				cout<<"Como a raiz quadrada do Delta(Δ =b² -4*a*c) é exata, podemos fazer a fórmula de Bhaskara.\nS={"<< min(x1, x2) <<"," <<max(x1, x2)<<"}\n";
 			}else{
-				cout<<"S = {}";
+				cout<<"S = {}\n";
 			}
 			cout<<"Tente novamente.\n1.Sim\n2.Não\n";
 			cin >> SCH;
@@ -60,7 +60,7 @@ int main(){
 			if(raizExata(Delta)){
 			cout<<"Como a raiz quadrada do Delta(Δ =b² -4*a*c) é exata, podemos fazer a fórmula de Bhaskara.\nS={"<< min(x1, x2) <<"," <<max(x1, x2)<<"}\n";
 			}else{
-				cout<<"S = {}";
+				cout<<"S = {}\n";
 			}
 			cout<<"Tente novamente.\n1.Sim\n2.Não\n";
 			cin >> SCH;
@@ -78,7 +78,7 @@ int main(){
 							if(raizExata(Delta)){
 							cout<<"Como a raiz quadrada do Delta(Δ =b² -4*a*c) é exata, podemos fazer a fórmula de Bhaskara.\nS={"<< min(x1, x2) <<"," <<max(x1, x2)<<"}\n";
 							}else{
-								cout<<"S = {}";
+								cout<<"S = {}\n";
 							}
 							cout<<"Tente novamente.\n1.Sim\n2.Não\n";
 							cin >> SCH;
